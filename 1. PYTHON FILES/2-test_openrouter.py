@@ -14,7 +14,7 @@ def test_deepseek_basic():
     print("🚀 Starting DeepSeek API connection test...")
 
     # Your API configuration
-    API_KEY = "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"  # Replace with your actual API key
+    API_KEY = "sk-or-v1-7a899221fc9aeb4c99bac8118a8a59456657d6bdb3698386c60f6c078f510601e02"  # Replace with your actual API key
     BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
     # Headers for the API request
@@ -77,7 +77,7 @@ def test_deepseek_models():
     """
     print("\n🔄 Testing different DeepSeek models...")
 
-    API_KEY = "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"  # Replace with your actual API key
+    API_KEY = "sk-or-v1-7a899221fc9aeb4c99bac8118a8a59456657d6bdb3698386c60f6c078f510601e02"  # Replace with your actual API key
     BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
     # DeepSeek models - all very cost-effective
@@ -138,7 +138,7 @@ def test_lead_qualification_with_deepseek():
     """
     print("\n📧 Testing DeepSeek for email lead qualification...")
 
-    API_KEY = "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"  # Replace with your actual API key
+    API_KEY = "sk-or-v1-7a899221fc9aeb4c99bac8118a8a59456657d6bdb3698386c60f6c078f510601e02"  # Replace with your actual API key
     BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
     # Sample email for testing
