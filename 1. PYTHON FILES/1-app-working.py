@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 # Configuration - Replace with your actual values
 ZOHO_CONFIG = {
-    'client_id': '1000.IVI7THPC35ZS5DKKK1U8KXPET28B840H',  # Replace with your actual client ID
+    'client_id': '1000.IVI7THPC35ZS5DKKK1UXX8KXPET28B840H',  # Replace with your actual client ID
     'client_secret': 'f2dfe500a17e6a050a5b3e48b7dc56ab40466acef4',  # Replace with your actual client secret
     'redirect_uri': 'http://localhost:5000/zoho/callback',  # Update this based on your setup
     'scope': 'ZohoCRM.modules.ALL,ZohoCRM.users.READ',
